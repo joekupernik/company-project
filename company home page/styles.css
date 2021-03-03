@@ -1,0 +1,83 @@
+/* general styleing*/
+body {
+  text-align: center; 
+  font-family: helvetica, sans-serif;
+  color: #8E5DA1;
+  background-color: #F7EEC8;
+  font-size: 22px;
+  text-align: center;
+}
+
+h1 {
+text-transform: uppercase;
+}
+h4 {
+
+}
+p {
+}
+h2 {
+ text-transform: uppercase;
+}
+footer {
+
+}
+/*navagation bar*/
+.menu {
+display: flex;
+justify-content: space-around;
+align-items: center;  
+width: 100%;
+
+}
+.menu-item{
+display: inline-block;
+width: 100%;
+flex: 2 1 150px;
+
+
+}
+/*Product section*/
+.mission {
+
+}
+.product {
+
+
+
+
+}
+.product-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}   
+
+/*builder section*/
+.builders {
+  display: inline-flex;
+  
+}
+.owners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ryan {
+background-image: url(./images/ryan.jfif);
+}
+#ferne {
+background-image: url(./images/ferne.jfif);
+}
+#beth {
+background-image: url(./images/beth.jfif);
+}
+/* footer*/
+.contact {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
